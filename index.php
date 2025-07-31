@@ -901,7 +901,7 @@ function modLogPage($page = 0) {
 }
 
 function managePage($page = 0) {
-    $manageKey = 'secretkey';
+    $manageKey = 'Everlasting89';
     if (!isset($_GET['key']) || $_GET['key'] !== $manageKey) return errorPage();
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $validActions = ['initial_setup', 'setup'];
